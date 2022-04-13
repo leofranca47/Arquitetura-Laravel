@@ -8,8 +8,14 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 /**
-* @OA\Info(title="Arquitetura Laravel By Leo França", version="0.1")
-*/
+     * @OA\OpenApi(
+     *     @OA\Info(
+     *         version="1.0",
+     *         title="Arquitetura Laravel",
+     *         description="Criado por Leo França Dev",
+     *     )
+     * )
+     */
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
