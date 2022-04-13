@@ -18,6 +18,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->bind(
             IUserRepository::class, UserRepository::class
         );
+        $this->app->register(\L5Swagger\L5SwaggerServiceProvider::class);
     }
 
     /**
