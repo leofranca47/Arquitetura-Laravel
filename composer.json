@@ -22,7 +22,7 @@
         "phpunit/phpunit": "^9.5.10"
     },
     "repositories": [{
-        "type": "path",
+        "type": "vcs",
         "url": "https://github.com/leofranca47/Arquitetura-Laravel"
     }],
     "autoload": {
