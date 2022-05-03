@@ -21,6 +21,10 @@
         "nunomaduro/collision": "^5.10",
         "phpunit/phpunit": "^9.5.10"
     },
+    "repositories": [{
+        "type": "path",
+        "url": "https://github.com/leofranca47/Arquitetura-Laravel"
+    }],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -58,6 +62,6 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
